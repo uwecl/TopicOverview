@@ -1,6 +1,35 @@
 # TopicOverview
 LaTex template to summarize the topics of a course at university.
 
+## How to use the template
+
+### General document information
+To add the general document information use the following code:
+
+	\documentclass[a4paper]{article}
+
+	% Set document information.
+	\newcommand{\workingDate}{\textsc{Feb 2016}}
+	\newcommand{\docAuthors}{Benjamin Rupp}
+	\newcommand{\institution}{KIT}
+	\newcommand{\docCourseName}{Softwaretechnik 2}
+	\newcommand{\docTerm}{WS 2015-16}
+
+	\usepackage{topic-overview}
+
+Then you can add the document title by adding these lines:
+
+	\title{\docTitle}
+	\author{\docAuthors}
+	\date{\docTerm}
+
+	\begin{document}
+
+	\maketitle
+	
+After that you can add the *lesson* environments as described in the following section.
+
+### Add document content
 The template provides a *lesson* environment to group the topics of a specific lesson of this course. To structure the topics you can use the *topic* and *subtopic* commands. The following will give you a simple example of the usage:
 
 	\begin{lesson}{Model-Driven Development}
