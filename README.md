@@ -77,6 +77,12 @@ You can also add some *learning goals* of a lesson by using the option field:
 	\end{lesson}
 
 ## Example output
-The following PDF file shows an example which was created with the TopicOverview template.
+The following image shows an example document which was created with the TopicOverview template.
 
 ![image](example.png)
+
+
+## Development status
+I created this template to summarize the content of my master courses at KIT. It's the first LaTex template I've created and I am sure that it could be realised in a much better way. But for me it works and I want to share this template in the hope that it will help somebody.
+
+So, if you have some improvement proposals don't hesitate to contact me. By the way, this is my first Github project, too. ;-)
