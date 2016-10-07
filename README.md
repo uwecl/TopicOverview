@@ -79,7 +79,7 @@ You can also add some *learning goals* of a lesson by using the option field:
 ## Example output
 The following image shows an example document which was created with the TopicOverview template.
 
-![image](example.png)
+![image](example/example.png)
 
 
 ## Development status
